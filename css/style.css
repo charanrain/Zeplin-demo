@@ -46,6 +46,7 @@ img{
   width: 66%;
   top: 34px;
   right: -100px;
+  cursor: pointer;
 }
 .left-content img{
   display: block;
