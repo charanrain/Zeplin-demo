@@ -4,9 +4,9 @@ var modal = document.getElementById("modal-wrap");
   	modal.style.visibility = (modal.style.visibility == "visible") ? "hidden" : "visible";
   }
   document.addEventListener('keyup', function(e) {
-    if (e.keyCode == 27) {
+    if (e.keyCode == 27 && modal.style.visibility === "visible") {
         overlay();
-    }
+      }
 });
 
 function hideOverlay(){
